@@ -31,7 +31,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void setStudents(Student[] students) {
-		this.students=students;
+		this.students=Students;
 		// Add your implementation here
 	}
 
@@ -50,7 +50,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void addFirst(Student student) {
 		// Add your implementation here
-		return addFirst[student];
+		this.addFirst=Student;
 	}
 
 	@Override
