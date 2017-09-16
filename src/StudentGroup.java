@@ -44,7 +44,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudent(Student student, int index) {
 		// Add your implementation here
-		return students[student];
+		this.index=index;
 	}
 
 	@Override
